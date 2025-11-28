@@ -36,8 +36,8 @@ mvn -version
 ### 2. Clonar o Repositório
 
 ```bash
-git clone [https://github.com/SEU_USUARIO/estudo-goald-completo.git](https://github.com/SEU_USUARIO/estudo-goald-completo.git)
-cd estudo-goald-completo
+git clone https://github.com/sr-bauducco/goald-osgi-study-session.git
+cd goald-osgi-study-session
 ```
 ### 3. Build Inicial (Maven)
 ```bash

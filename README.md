@@ -39,11 +39,11 @@ mvn -version
 git clone https://github.com/sr-bauducco/goald-osgi-study-session.git
 cd goald-osgi-study-session
 ```
-### 3. Build Inicial (Maven)
-```bash
-Antes de abrir o Eclipse, force a compilação dos projetos principais para gerar os arquivos .jar necessários.
-Bash
 
+### 3. Build Inicial (Maven)
+
+Antes de abrir o Eclipse, force a compilação dos projetos principais para gerar os arquivos .jar necessários.
+```bash
 # Navegue até a pasta do GoalD
 cd goald
 
@@ -51,6 +51,7 @@ cd goald
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 mvn clean install -DskipTests
 ```
+
 ## 💻 Configuração da IDE (Eclipse)
 
 Devido à natureza híbrida do projeto (Maven + Plugins OSGi antigos), a importação exige passos manuais.
